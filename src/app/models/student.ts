@@ -1,0 +1,1 @@
+export interface Student { id: string; name: string; email: string; phone: string; course: string; year: string; status: 'Active' | 'Inactive'; }
