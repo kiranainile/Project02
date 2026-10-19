@@ -1,27 +1,20 @@
-# Project2
+# EduTrack – Student Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+A responsive Angular 14 student administration frontend built with classic NgModules and local mock data. It includes a validated demo login, dashboard, student directory and profile pages, attendance, courses, examinations, and settings. Student changes live in memory and reset when the page is refreshed; no backend is required.
 
-## Development server
+## Run locally
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```bash
+npm install
+npm start
+```
 
-## Code scaffolding
+Open http://localhost:4200. For the demo login, enter any valid email address and a password with at least six characters.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Production build
 
-## Build
+```bash
+npm run build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The generated files are written to `dist/project2`.
